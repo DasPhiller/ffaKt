@@ -7,3 +7,5 @@ main: org.example.plugin.ExamplePlugin
 loader: org.example.plugin.ExamplePluginLoader
 description: Paper Example Plugin
 authors: [You, Me]
+libraries:
+  - net.axay:kspigot:1.20.1
