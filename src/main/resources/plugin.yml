@@ -1,11 +1,11 @@
 api-version: '1.19'
 
 # Change all of these to your plugin's information
-name: ExamplePlugin
+name: FFA
+load: POSTWORLD
 version: '0.1.0'
-main: org.example.plugin.ExamplePlugin
-loader: org.example.plugin.ExamplePluginLoader
-description: Paper Example Plugin
-authors: [You, Me]
+main: de.dasphiller.ffa.FFA
+description: FFA
+authors: [ xPhiller ]
 libraries:
   - net.axay:kspigot:1.20.1
