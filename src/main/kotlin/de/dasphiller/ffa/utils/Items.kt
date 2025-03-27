@@ -15,37 +15,37 @@ val kitSelectorItem = itemStack(Material.CHEST) {
 
 val sword = itemStack(Material.IRON_SWORD) {
     meta {
-        addEnchant(Enchantment.DAMAGE_ALL, 1, true)
+        addEnchant(Enchantment.SHARPNESS, 1, true)
     }
 }
 
 val axe = itemStack(Material.DIAMOND_AXE) {
     meta {
-        addEnchant(Enchantment.DURABILITY, 3, true)
+        addEnchant(Enchantment.UNBREAKING, 3, true)
     }
 }
 
 val helmet = itemStack(Material.TURTLE_HELMET) {
     meta {
-        addEnchant(Enchantment.PROTECTION_ENVIRONMENTAL, 1, true)
+        addEnchant(Enchantment.PROTECTION, 1, true)
     }
 }
 
 val chestplate = itemStack(Material.DIAMOND_CHESTPLATE) {
     meta {
-        addEnchant(Enchantment.PROTECTION_ENVIRONMENTAL, 1, true)
+        addEnchant(Enchantment.PROTECTION, 1, true)
     }
 }
 
 val leggins = itemStack(Material.DIAMOND_LEGGINGS) {
     meta {
-        addEnchant(Enchantment.PROTECTION_ENVIRONMENTAL, 1, true)
+        addEnchant(Enchantment.PROTECTION, 1, true)
     }
 }
 
 val boots = itemStack(Material.IRON_BOOTS) {
     meta {
-        addEnchant(Enchantment.PROTECTION_ENVIRONMENTAL, 1, true)
+        addEnchant(Enchantment.PROTECTION, 1, true)
     }
 }
 
@@ -62,5 +62,5 @@ val stone = itemStack(Material.STONE) {
 }
 
 val shield = itemStack(Material.SHIELD) {
-    addEnchantment(Enchantment.DURABILITY, 3)
+    addEnchantment(Enchantment.UNBREAKING, 3)
 }

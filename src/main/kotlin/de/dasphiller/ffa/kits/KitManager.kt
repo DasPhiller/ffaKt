@@ -1,10 +1,7 @@
 package de.dasphiller.ffa.kits
 
-import de.dasphiller.ffa.kits.impl.BlazeKit
+import de.dasphiller.ffa.kits.impl.*
 import de.dasphiller.kitapi.kit.addKit
-import de.dasphiller.ffa.kits.impl.PhantomKit
-import de.dasphiller.ffa.kits.impl.NinjaKit
-import de.dasphiller.ffa.kits.impl.SoupKit
 
 object KitManager {
 
@@ -14,7 +11,7 @@ object KitManager {
         addKit(NinjaKit())
         addKit(SoupKit())
         addKit(GapMaster())
-        addKit(DoubleTruple())
+        addKit(BoostKit())
         addKit(BlazeKit())
     }
 

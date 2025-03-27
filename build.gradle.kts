@@ -1,9 +1,9 @@
 plugins {
     java
-    kotlin("jvm") version "1.9.10"
-    id("io.papermc.paperweight.userdev") version "1.5.5"
+    kotlin("jvm") version "2.0.10"
+    id("io.papermc.paperweight.userdev") version "1.7.2"
     id("xyz.jpenilla.run-paper") version "2.1.0"
-    id("com.github.johnrengelman.shadow") version "7.1.2"
+    id("com.gradleup.shadow") version "9.0.0-beta9"
 }
 
 group = "de.dasphiller"
@@ -15,16 +15,16 @@ repositories {
 }
 
 dependencies {
-    paperweight.paperDevBundle("1.20.1-R0.1-SNAPSHOT")
+    paperweight.paperDevBundle("1.21.1-R0.1-SNAPSHOT")
 
-    implementation("de.hglabor:knockback-api:1.19.0")
+    implementation(files("libs/kitapi-1.0.jar"))
 
-    implementation(files("libs/kitapi-0.1.0.jar"))
+    implementation ("fr.mrmicky:fastboard:2.1.3")
 
-    implementation("net.axay:kspigot:1.20.1")
+    implementation("net.axay:kspigot:1.21.0")
 }
 
-val javaVersion = 17
+val javaVersion = 21
 
 tasks {
     compileKotlin {
@@ -40,7 +40,7 @@ tasks {
         dependsOn(reobfJar)
     }
     runServer {
-        minecraftVersion("1.20.1")
+        minecraftVersion("1.21.1")
     }
 }
 

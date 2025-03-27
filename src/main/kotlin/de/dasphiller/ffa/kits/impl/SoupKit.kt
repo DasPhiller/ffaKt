@@ -2,7 +2,7 @@ package de.dasphiller.ffa.kits.impl
 
 import de.dasphiller.kitapi.kit.Kit
 import de.dasphiller.kitapi.kit.kit
-import de.dasphiller.kitapi.kit.mm
+import de.dasphiller.ffa.mm
 import net.axay.kspigot.event.listen
 import net.axay.kspigot.event.unregister
 import net.axay.kspigot.extensions.bukkit.realMaxHealth

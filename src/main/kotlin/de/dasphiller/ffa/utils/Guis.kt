@@ -3,7 +3,7 @@ package de.dasphiller.ffa.utils
 import de.dasphiller.kitapi.kit.Kit
 import de.dasphiller.kitapi.kit.addToKit
 import de.dasphiller.kitapi.kit.kitList
-import de.dasphiller.kitapi.kit.mm
+import de.dasphiller.ffa.mm
 import net.axay.kspigot.extensions.bukkit.heal
 import net.axay.kspigot.extensions.bukkit.saturate
 import net.axay.kspigot.gui.GUIType

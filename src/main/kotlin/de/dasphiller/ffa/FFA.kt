@@ -5,16 +5,11 @@ import de.dasphiller.ffa.game.GameManager
 import de.dasphiller.kitapi.KitApi
 import de.dasphiller.ffa.kits.KitManager
 import de.dasphiller.ffa.listener.ConnectionListener
-import de.dasphiller.kitapi.kit.openKitSelector
-import de.hglabor.knockbackapi.api.KnockbackConfiguration
-import de.hglabor.knockbackapi.api.KnockbackSettings
-import de.hglabor.knockbackapi.registry.EntityKnockbackRegistry
-import net.axay.kspigot.commands.command
-import net.axay.kspigot.commands.runs
 import net.axay.kspigot.extensions.geometry.LocationArea
 import net.axay.kspigot.main.KSpigot
 import net.axay.kspigot.main.KSpigotMainInstance
 import net.axay.kspigot.structures.fillBlocks
+import net.kyori.adventure.text.minimessage.MiniMessage
 import org.bukkit.GameRule
 import org.bukkit.Location
 import org.bukkit.Material
@@ -61,3 +56,5 @@ class FFA : KSpigot() {
 }
 
 val kitApi get() = KitApi()
+
+val mm = MiniMessage.miniMessage()

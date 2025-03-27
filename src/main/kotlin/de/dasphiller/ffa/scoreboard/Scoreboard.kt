@@ -1,9 +1,9 @@
 package de.dasphiller.ffa.scoreboard
 
-import de.dasphiller.ffa.adventure.FastBoard
 import de.dasphiller.kitapi.kit.canUseKit
 import de.dasphiller.kitapi.kit.kit
-import de.dasphiller.kitapi.kit.mm
+import de.dasphiller.ffa.mm
+import fr.mrmicky.fastboard.adventure.FastBoard
 import org.bukkit.entity.Player
 import net.kyori.adventure.text.Component
 import net.kyori.adventure.text.format.TextDecoration
